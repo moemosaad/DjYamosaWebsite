@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS djyamosa;
+DROP TABLE IF EXISTS videos;
+
+CREATE DATABASE djyamosa;
+
+CREATE TABLE videos (
+    id INT NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    image_url VARCHAR(255) NOT NULL,
+    video_url VARCHAR(255) NOT NULL
+)
